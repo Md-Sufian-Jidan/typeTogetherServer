@@ -14,7 +14,7 @@ Connection();
 
 // middlewares
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://typetogetherserver.onrender.com'],
+    origin: ['http://localhost:5173'],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     // allowedHeaders: ['Content-Type', 'Authorization'],
 }));
